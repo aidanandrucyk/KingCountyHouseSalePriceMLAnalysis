@@ -1,5 +1,19 @@
-# Machine Learning Predictor for King County Home Sale Price
+# MACHINE LEARNING HOUSE SALE PREDICTOR
+For best user interaction, please use the [**Google Colab notebook**](https://colab.research.google.com/drive/16fxDjot_85PfMpMvJKpHJbPC4garb1Re?usp=sharing) as many features including plotly graph interactivity are not available unless using a notebook. 
 
+$ mdtoc.rb FILE.md 
+## TABLE OF CONTENTS
+1. [Et cum](#DESCRIPTION)
+    * [His ut](#his-ut)
+    * [Doctus voluptua](#doctus-voluptua)
+2. [Id scripta](##VISUALIZATION SNAPSHOTS)
+
+## DESCRIPTION
+* Applied Tensorflow/Keras Neural Network Regression capabilities to predict house sale prices in King County, Washington.
+* Visualized historical sales on interactive Mapbox scatter maps, animated time series, and 3D plots using Plotly.
+* Utilized Pandas and Seaborn on Kaggle CSVs for data cleaning, exploratory analysis, and feature engineering.
+
+## VISUALIZATION SNAPSHOTS
 **Price Mapbox:**
 
 ![Price Mapbox](https://github.com/aidanandrucyk/Machine_Learning_Predictor_for_King_County_Home_Sale_Price/blob/master/img/price_map.png)
