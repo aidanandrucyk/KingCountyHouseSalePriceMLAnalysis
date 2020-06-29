@@ -3,15 +3,38 @@ For best user interaction, please use the [**Google Colab notebook**](https://co
 
 $ mdtoc.rb FILE.md 
 ## TABLE OF CONTENTS
-1. [Et cum](#DESCRIPTION)
-    * [His ut](#his-ut)
-    * [Doctus voluptua](#doctus-voluptua)
-2. [Id scripta](##VISUALIZATION SNAPSHOTS)
+1. [Descriptions](#DESCRIPTION)
+2. [Model Overview](#MODEL OVERVIEW)
+    * [Neural Network Specifications](#NEURAL NETWORK SPECIFICATIONS:)
+    * [Model Metrics](#MODEL METRICS:)
+3. [Visualizations Snapshots](#VISUALIZATION SNAPSHOTS)
+4. [Variable Descriptions](#VARIABLE DESCRIPTIONS)
+5. [Visualizations Snapshots](#RESOURCES)
+6. [Visualizations Snapshots](#REGIONAL MAP)
 
 ## DESCRIPTION
 * Applied Tensorflow/Keras Neural Network Regression capabilities to predict house sale prices in King County, Washington.
 * Visualized historical sales on interactive Mapbox scatter maps, animated time series, and 3D plots using Plotly.
 * Utilized Pandas and Seaborn on Kaggle CSVs for data cleaning, exploratory analysis, and feature engineering.
+
+## MODEL OVERVIEW
+
+### NEURAL NETWORK SPECIFICATIONS:
+* Sequential Model with 1 input layer, 2 hidden layers, and 1 output layer.
+* Rectified linear unit (ReLU) activation function used for all layers except output.
+* Layers 1 to 3 contain 88 nodes with 40% drop out (weights & baises are not updated).
+* Compiled with adam optimizer evaluating by mean squared error. 
+* Preprocessed using MinMaxScaler for predictor variables.
+* Batch size of 128 (2^7) to balance compile time and overfitting reduction amount.
+* Arbitraly large epochs of 10000 to be corrected by early stop callback.
+* Tensorboard log recorded in callback.
+
+### MODEL METRICS:
+* Mean Absolute Error (MAE): 61,589.66
+* Mean Squared Error (MSE): 7,542,717,726.97
+* Root Mean Squared Error (RMSE): 86,848.82
+* Explained Variance: 0.83
+* Residual Variation: 0.17
 
 ## VISUALIZATION SNAPSHOTS
 **Price Mapbox:**
@@ -21,7 +44,7 @@ $ mdtoc.rb FILE.md
 **Square Feet of Living Space Mapbox for Houses Built in 1906:**
 ![Square Feet Mapbox](https://github.com/aidanandrucyk/Machine_Learning_Predictor_for_King_County_Home_Sale_Price/blob/master/img/sqrt_feet_map.png)
 
-## FEATURE DESCRIPTIONS
+## VARIABLE DESCRIPTIONS
 <p>This dataset contains house sale prices for King County, WA. It includes homes sold between May 2014 and May 2015.</p>
 <table border="1" class="dataframe">
   <thead>
@@ -132,12 +155,12 @@ $ mdtoc.rb FILE.md
 
 ---
 ----
-## Resources
+## RESOURCES
 - [Kaggle](https://www.kaggle.com/harlfoxem/housesalesprediction)
 
 - [Data Source](https://geodacenter.github.io/data-and-lab//KingCounty-HouseSales2015/)
 
-## Regional Map
+## REGIONAL MAP
 
 Red section represents the City of Seattle.
 
