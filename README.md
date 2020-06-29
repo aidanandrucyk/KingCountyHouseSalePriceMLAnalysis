@@ -1,5 +1,5 @@
 # MACHINE LEARNING HOUSE SALE PRICE PREDICTOR
-For best user interaction, please use the [**Google Colab notebook**](https://colab.research.google.com/drive/16fxDjot_85PfMpMvJKpHJbPC4garb1Re?usp=sharing) as many features including plotly graph interactivity are not available unless using a notebook. 
+For best user interaction, please use the [**Google Colab notebook**](https://colab.research.google.com/drive/16fxDjot_85PfMpMvJKpHJbPC4garb1Re?usp=sharing) as many features including Tensorboard and Plotly graph interactivity are not available unless using a notebook. 
 
 ## TABLE OF CONTENTS
 1. [Descriptions](#DESCRIPTION)
