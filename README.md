@@ -1,8 +1,14 @@
 # Machine Learning Predictor for King County Home Sale Price
 
-<p>This dataset contains house sale prices for King County, WA. It includes homes sold between May 2014 and May 2015.</p>
+**Price Mapbox:**
+
+![Price Mapbox](https://github.com/aidanandrucyk/Machine_Learning_Predictor_for_King_County_Home_Sale_Price/blob/master/img/price_map.png)
+
+**Square Feet of Living Space Mapbox for Houses Built in 1906:**
+![Square Feet Mapbox](https://github.com/aidanandrucyk/Machine_Learning_Predictor_for_King_County_Home_Sale_Price/blob/master/img/sqrt_feet_map.png)
 
 ## FEATURE DESCRIPTIONS
+<p>This dataset contains house sale prices for King County, WA. It includes homes sold between May 2014 and May 2015.</p>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -124,10 +130,3 @@ Red section represents the City of Seattle.
 Orange section represents King County
 
 ![Map Outline of King County](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/King_County_Washington_Incorporated_and_Unincorporated_areas_Burien_Highlighted.svg/1200px-King_County_Washington_Incorporated_and_Unincorporated_areas_Burien_Highlighted.svg.png)
-
-**Price Mapbox:**
-
-![Price Mapbox](https://github.com/aidanandrucyk/Machine_Learning_Predictor_for_King_County_Home_Sale_Price/blob/master/img/price_map.png)
-
-**Square Feet of Living Space Mapbox for Houses Built in 1906:**
-![Square Feet Mapbox](https://github.com/aidanandrucyk/Machine_Learning_Predictor_for_King_County_Home_Sale_Price/blob/master/img/sqrt_feet_map.png)
