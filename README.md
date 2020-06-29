@@ -4,13 +4,12 @@ For best user interaction, please use the [**Google Colab notebook**](https://co
 $ mdtoc.rb FILE.md 
 ## TABLE OF CONTENTS
 1. [Descriptions](#DESCRIPTION)
-2. [Model Overview](#MODEL OVERVIEW)
-    * [Neural Network Specifications](#NEURAL NETWORK SPECIFICATIONS:)
-    * [Model Metrics](#MODEL METRICS:)
-3. [Visualizations Snapshots](#VISUALIZATION SNAPSHOTS)
-4. [Variable Descriptions](#VARIABLE DESCRIPTIONS)
-5. [Visualizations Snapshots](#RESOURCES)
-6. [Visualizations Snapshots](#REGIONAL MAP)
+2. [Model Overview](#MODEL)
+    * [Neural Network Specifications](#NEURAL NETWORK)
+    * [Model Metrics](#METRICS)
+3. [Visualizations Snapshots](#VISUALIZATION)
+4. [Variable Descriptions](#VARIABLE)
+5. [Resources](#RESOURCES)
 
 ## DESCRIPTION
 * Applied Tensorflow/Keras Neural Network Regression capabilities to predict house sale prices in King County, Washington.
@@ -29,7 +28,7 @@ $ mdtoc.rb FILE.md
 * Arbitraly large epochs of 10000 to be corrected by early stop callback.
 * Tensorboard log recorded in callback.
 
-### MODEL METRICS:
+### METRICS:
 * Mean Absolute Error (MAE): 61,589.66
 * Mean Squared Error (MSE): 7,542,717,726.97
 * Root Mean Squared Error (RMSE): 86,848.82
