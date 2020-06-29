@@ -4,8 +4,8 @@ For best user interaction, please use the [**Google Colab notebook**](https://co
 ## TABLE OF CONTENTS
 1. [Descriptions](#DESCRIPTION)
 2. [Model Overview](#MODEL-OVERVIEW)
-    * [Neural Network Specifications](#NEURAL-NETWORK-SPECIFICATIONS:)
-    * [Model Metrics](#MODEL-METRICS:)
+    * [Neural Network Specifications](#NEURAL-NETWORK-SPECIFICATIONS)
+    * [Model Metrics](#MODEL-METRICS)
 3. [Contextual Regional Map](#CONTEXTUAL-REGIONAL-MAP)
 4. [Visualizations Snapshots](#VISUALIZATION-SNAPSHOTS)
 5. [Variable Descriptions](#VARIABLE-DESCRIPTIONS)
@@ -57,9 +57,9 @@ Orange section represents King County
 <p>This dataset contains house sale prices for King County, Washington. It includes homes sold between May 2014 and May 2015.</p>
 
 ### PRICE DESCRIPTION
-<table border="1" class="dataframe">
+<table border="0" class="dataframe">
   <thead>
-    <tr style="text-align: right;">
+    <tr style="text-align: left;">
       <th>Variable</th>
       <th>Description</th>
     </tr>
@@ -97,7 +97,7 @@ Orange section represents King County
 </table>
 
 ### TABLE OF VARIABLES
-<table border="1" class="dataframe">
+<table border="0" class="dataframe">
   <thead>
     <tr style="text-align: right;">
       <th>Column</th>
