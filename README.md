@@ -1,11 +1,10 @@
 # MACHINE LEARNING HOUSE SALE PREDICTOR
 For best user interaction, please use the [**Google Colab notebook**](https://colab.research.google.com/drive/16fxDjot_85PfMpMvJKpHJbPC4garb1Re?usp=sharing) as many features including plotly graph interactivity are not available unless using a notebook. 
 
-$ mdtoc.rb FILE.md 
 ## TABLE OF CONTENTS
 1. [Descriptions](#DESCRIPTION)
 2. [Model Overview](#MODEL)
-    * [Neural Network Specifications](#NEURAL NETWORK)
+    * [Neural Network Specifications](#NEURAL-NETWORK)
     * [Model Metrics](#METRICS)
 3. [Visualizations Snapshots](#VISUALIZATION)
 4. [Variable Descriptions](#VARIABLE)
