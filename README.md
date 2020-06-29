@@ -4,11 +4,14 @@ For best user interaction, please use the [**Google Colab notebook**](https://co
 ## TABLE OF CONTENTS
 1. [Descriptions](#DESCRIPTION)
 2. [Model Overview](#MODEL-OVERVIEW)
-    * [Neural Network Specifications](#NEURAL-NETWORK)
-    * [Model Metrics](#MODEL-METRICS)
-3. [Visualizations Snapshots](#VISUALIZATION)
-4. [Variable Descriptions](#VARIABLE)
-5. [Resources](#RESOURCES)
+    * [Neural Network Specifications](#NEURAL-NETWORK-SPECIFICATIONS:)
+    * [Model Metrics](#MODEL-METRICS:)
+3. [Contextual Regional Map](#CONTEXTUAL-REGIONAL-MAP)
+4. [Visualizations Snapshots](#VISUALIZATION-SNAPSHOTS)
+5. [Variable Descriptions](#VARIABLE-DESCRIPTIONS)
+    * [Price Variable Breakdown](#PRICE-DESCRIPTION)
+    * [Table of Variables](#TABLE-OF-VARIABLES)
+6. [Resources](#RESOURCES)
 
 ## DESCRIPTION
 * Applied Tensorflow/Keras Neural Network Regression capabilities to predict house sale prices in King County, Washington.
@@ -27,7 +30,7 @@ For best user interaction, please use the [**Google Colab notebook**](https://co
 * Arbitraly large epochs of 10000 to be corrected by early stop callback.
 * Tensorboard log recorded in callback.
 
-### METRICS:
+### MODEL METRICS:
 * Mean Absolute Error (MAE): 61,589.66
 * Mean Squared Error (MSE): 7,542,717,726.97
 * Root Mean Squared Error (RMSE): 86,848.82
@@ -42,8 +45,58 @@ For best user interaction, please use the [**Google Colab notebook**](https://co
 **Square Feet of Living Space Mapbox for Houses Built in 1906:**
 ![Square Feet Mapbox](https://github.com/aidanandrucyk/Machine_Learning_Predictor_for_King_County_Home_Sale_Price/blob/master/img/sqrt_feet_map.png)
 
+## CONTEXTUAL REGIONAL MAP
+
+Red section represents the City of Seattle.
+
+Orange section represents King County
+
+![Map Outline of King County](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/King_County_Washington_Incorporated_and_Unincorporated_areas_Burien_Highlighted.svg/1200px-King_County_Washington_Incorporated_and_Unincorporated_areas_Burien_Highlighted.svg.png)
+
 ## VARIABLE DESCRIPTIONS
-<p>This dataset contains house sale prices for King County, WA. It includes homes sold between May 2014 and May 2015.</p>
+<p>This dataset contains house sale prices for King County, Washington. It includes homes sold between May 2014 and May 2015.</p>
+
+### PRICE DESCRIPTION
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Variable</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Mean</td>
+      <td>4.580474e+09</td>
+    </tr>
+    <tr>
+      <td>Std</td>
+      <td>2.876736e+09</td>
+    </tr>
+    <tr>
+      <td>Min</td>
+      <td>1.000102e+06</td>
+    </tr>
+    <tr>
+      <td>Q1</td>
+      <td>2.123049e+09</td>
+    </tr>
+    <tr>
+      <td>Median</td>
+      <td>3.904930e+09</td>
+    </tr>
+    <tr>
+      <td>Q3</td>
+      <td>7.308900e+09</td>
+    </tr>
+    <tr>
+      <td>Max</td>
+      <td>9.900000e+09</td>
+    </tr>
+  </tbody>
+</table>
+
+### TABLE OF VARIABLES
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -157,11 +210,3 @@ For best user interaction, please use the [**Google Colab notebook**](https://co
 - [Kaggle](https://www.kaggle.com/harlfoxem/housesalesprediction)
 
 - [Data Source](https://geodacenter.github.io/data-and-lab//KingCounty-HouseSales2015/)
-
-## REGIONAL MAP
-
-Red section represents the City of Seattle.
-
-Orange section represents King County
-
-![Map Outline of King County](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/King_County_Washington_Incorporated_and_Unincorporated_areas_Burien_Highlighted.svg/1200px-King_County_Washington_Incorporated_and_Unincorporated_areas_Burien_Highlighted.svg.png)
