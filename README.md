@@ -1,1 +1,2 @@
-# Machine_Learning_Predictor_for_New_York_City_Airbnb_Prices
+# Machine Learning Predictor for King County Home Sale Price
+![Drag Racing](Dragster.jpg)
