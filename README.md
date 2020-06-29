@@ -3,9 +3,9 @@ For best user interaction, please use the [**Google Colab notebook**](https://co
 
 ## TABLE OF CONTENTS
 1. [Descriptions](#DESCRIPTION)
-2. [Model Overview](#MODEL)
+2. [Model Overview](#MODEL-OVERVIEW)
     * [Neural Network Specifications](#NEURAL-NETWORK)
-    * [Model Metrics](#METRICS)
+    * [Model Metrics](#MODEL-METRICS)
 3. [Visualizations Snapshots](#VISUALIZATION)
 4. [Variable Descriptions](#VARIABLE)
 5. [Resources](#RESOURCES)
