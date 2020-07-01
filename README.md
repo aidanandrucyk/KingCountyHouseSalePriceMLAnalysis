@@ -23,7 +23,7 @@ For best user interaction, please use the [**Google Colab notebook**](https://co
 ### NEURAL NETWORK SPECIFICATIONS:
 * Sequential Model with 1 input layer, 2 hidden layers, and 1 output layer.
 * Rectified linear unit (ReLU) activation function used for all layers except output.
-* Layers 1 to 3 contain 88 nodes with 40% drop out (weights & baises are not updated).
+* Layers 1 to 3 contain 88 nodes with hidden layers having a 40% drop out rate.
 * Compiled with adam optimizer evaluating by mean squared error. 
 * Preprocessed using MinMaxScaler for predictor variables.
 * Batch size of 128 (2^7) to balance compile time and overfitting reduction amount.
