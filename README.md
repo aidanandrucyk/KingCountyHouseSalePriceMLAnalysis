@@ -38,11 +38,11 @@ For best user interaction, please use the [**Google Colab notebook**](https://co
 * Residual Variation: 0.17
 
 ## VISUALIZATION SNAPSHOTS
-**Scatter Map of Prices (USD):**
+** Interactive Scatter Map of Prices (USD):**
 
 ![Price Mapbox](https://github.com/aidanandrucyk/Machine_Learning_Predictor_for_King_County_Home_Sale_Price/blob/master/img/price_map.png)
 
-**Square Feet of Living Space Scatter Map for Houses Built in 1906:**
+**Square Feet of Living Space Interactive Scatter Map for Houses Built in 1906:**
 ![Square Feet Mapbox](https://github.com/aidanandrucyk/Machine_Learning_Predictor_for_King_County_Home_Sale_Price/blob/master/img/sqrt_feet_map.png)
 
 ## CONTEXTUAL REGIONAL MAP
