@@ -58,8 +58,8 @@ For best user interaction, please use the [**Google Colab notebook**](https://co
 <table border="0" class="dataframe">
   <thead>
     <tr style="text-align: left;">
-      <th>Variable</th>
-      <th>Description</th>
+      <th>Metric</th>
+      <th>Value</th>
     </tr>
   </thead>
   <tbody>
