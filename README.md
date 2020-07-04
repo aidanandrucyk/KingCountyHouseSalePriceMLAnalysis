@@ -38,18 +38,16 @@ For best user interaction, please use the [**Google Colab notebook**](https://co
 * Residual Variation: 0.17
 
 ## VISUALIZATION SNAPSHOTS
-**Price Mapbox:**
+**Scatter Map of Prices (USD):**
 
 ![Price Mapbox](https://github.com/aidanandrucyk/Machine_Learning_Predictor_for_King_County_Home_Sale_Price/blob/master/img/price_map.png)
 
-**Square Feet of Living Space Mapbox for Houses Built in 1906:**
+**Square Feet of Living Space Scatter Map for Houses Built in 1906:**
 ![Square Feet Mapbox](https://github.com/aidanandrucyk/Machine_Learning_Predictor_for_King_County_Home_Sale_Price/blob/master/img/sqrt_feet_map.png)
 
 ## CONTEXTUAL REGIONAL MAP
-
-Red section represents the City of Seattle.
-
-Orange section represents King County
+* Red section represents the City of Seattle.
+* Orange section represents King County.
 
 ![Map Outline of King County](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/King_County_Washington_Incorporated_and_Unincorporated_areas_Burien_Highlighted.svg/1200px-King_County_Washington_Incorporated_and_Unincorporated_areas_Burien_Highlighted.svg.png)
 
